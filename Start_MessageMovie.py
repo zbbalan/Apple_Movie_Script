@@ -3,6 +3,16 @@ import sqlite3
 import shutil
 import logging
 
+# 配置日志记录
+logging.basicConfig(
+    level=logging.INFO,  # 设置日志级别为INFO
+    format='%(asctime)s - %(levelname)s - %(message)s',  # 日志格式
+    handlers=[
+        logging.FileHandler("app.log"),  # 将日志写入文件
+        logging.StreamHandler()  # 将日志输出到控制台
+    ]
+)
+
 def execute_applescript():
     applescript = """
     tell application "QuickTime Player"
@@ -35,11 +45,14 @@ def get_last_message():
 def copy_directory(src_dir, dst_dir):
     # 遍历源目录下的所有目录
     for dirpath, dirnames, filenames in os.walk(src_dir):
+        logging.info(f"Checking directories in {dirpath}: {dirnames}")  # 调试信息
         for dirname in dirnames:
             # 如果目录名包含'qtpxcomposition'
             if 'qtpxcomposition' in dirname:
                 src_path = os.path.join(dirpath, dirname)
+                logging.info(f"Found directory: {src_path}")
                 dst_path = os.path.join(dst_dir, dirname)
+                logging.info(f"Destination path: {dst_path}")
                 
                 # 如果目标目录已存在同名的目录，则跳过拷贝操作
                 if os.path.exists(dst_path):
@@ -60,6 +73,6 @@ if My_Message == "hello":
 elif My_Message == "stop":
     os.system('sh kill_QuickTimePlayer.sh')
     # 源目录和目标目录
-    src_dir = "/Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/"
-    dst_dir = "/Users/ZBB/movie_script/movie/"
+    src_dir = os.path.expanduser(r"/Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/")
+    dst_dir = "/Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/"
     copy_directory(src_dir, dst_dir)
