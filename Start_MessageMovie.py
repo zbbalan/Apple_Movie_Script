@@ -68,9 +68,9 @@ def copy_directory(src_dir, dst_dir):
 
 My_Message = get_last_message()
 
-if My_Message == "hello":
+if My_Message and My_Message.lower() == "hello":
     execute_applescript()
-elif My_Message == "stop":
+elif My_Message and My_Message.lower() == "stop":
     os.system('sh kill_QuickTimePlayer.sh')
     # 源目录和目标目录
     src_dir = os.path.expanduser(r"/Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/")

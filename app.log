@@ -1,0 +1,90 @@
+2025-01-20 15:39:30,002 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition', '未存储的“QuickTime Player”文稿2.qtpxcomposition']
+2025-01-20 15:39:30,003 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 15:39:30,003 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition_1737358769
+2025-01-20 15:39:30,026 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition_1737358769
+2025-01-20 15:39:30,035 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 15:39:30,035 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 15:39:30,035 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition_1737358769
+2025-01-20 15:39:30,067 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition_1737358769
+2025-01-20 15:39:30,069 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 15:42:43,280 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition']
+2025-01-20 15:42:43,280 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 15:42:43,280 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition_1737358963
+2025-01-20 15:42:43,322 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition_1737358963
+2025-01-20 15:42:43,327 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:10:39,621 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition']
+2025-01-20 16:10:39,621 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist
+2025-01-20 16:10:39,621 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,622 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,623 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist
+2025-01-20 16:10:39,623 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:10:39,623 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/index.qtpx
+2025-01-20 16:10:39,623 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,624 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/index.qtpx to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,624 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/index.qtpx
+2025-01-20 16:10:39,624 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/录影.mov
+2025-01-20 16:10:39,624 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,643 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/录影.mov to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360639
+2025-01-20 16:10:39,645 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition/录影.mov
+2025-01-20 16:14:03,753 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition', '未存储的“QuickTime Player”文稿2.qtpxcomposition']
+2025-01-20 16:14:03,754 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist
+2025-01-20 16:14:03,754 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360843
+2025-01-20 16:14:03,755 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360843
+2025-01-20 16:14:03,755 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/com.apple.QuickTimePlayerX.plist
+2025-01-20 16:14:03,755 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:14:03,755 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition: []
+2025-01-20 16:14:03,755 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/index.qtpx
+2025-01-20 16:14:03,755 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360843
+2025-01-20 16:14:03,755 - INFO - Updated destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360844
+2025-01-20 16:14:03,756 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/index.qtpx to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360844
+2025-01-20 16:14:03,757 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/index.qtpx
+2025-01-20 16:14:03,757 - INFO - Found file: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/录影.mov
+2025-01-20 16:14:03,757 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360844
+2025-01-20 16:14:03,757 - INFO - Updated destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360845
+2025-01-20 16:14:03,771 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/录影.mov to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/1737360845
+2025-01-20 16:14:03,772 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition/录影.mov
+2025-01-20 16:17:25,756 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition', '未存储的“QuickTime Player”文稿2.qtpxcomposition', '未存储的“QuickTime Player”文稿3.qtpxcomposition']
+2025-01-20 16:17:25,757 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:17:25,757 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:17:25,762 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:17:25,762 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:17:25,762 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:17:25,763 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:17:25,763 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:17:25,763 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:17:25,820 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:17:25,821 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:17:25,822 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition: []
+2025-01-20 16:17:25,823 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition: []
+2025-01-20 16:37:32,425 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition']
+2025-01-20 16:37:32,425 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:37:32,425 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:37:32,445 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:37:32,447 - INFO - Successfully deleted /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:38:24,716 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition']
+2025-01-20 16:38:24,716 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:38:24,716 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:38:24,716 - INFO - Directory /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition already exists. Skipping copy operation.
+2025-01-20 16:38:24,717 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:41:15,958 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition', '未存储的“QuickTime Player”文稿2.qtpxcomposition']
+2025-01-20 16:41:15,958 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:41:15,958 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:41:15,977 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:41:15,977 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:41:15,977 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:41:16,004 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:41:16,004 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:41:16,004 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition: []
+2025-01-20 16:42:07,827 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/: ['未存储的“QuickTime Player”文稿.qtpxcomposition', '未存储的“QuickTime Player”文稿2.qtpxcomposition', '未存储的“QuickTime Player”文稿3.qtpxcomposition']
+2025-01-20 16:42:07,827 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:42:07,827 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition
+2025-01-20 16:42:07,828 - INFO - Directory /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿.qtpxcomposition already exists. Skipping copy operation.
+2025-01-20 16:42:07,828 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:42:07,828 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition
+2025-01-20 16:42:07,828 - INFO - Directory /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿2.qtpxcomposition already exists. Skipping copy operation.
+2025-01-20 16:42:07,828 - INFO - Found directory: /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:42:07,828 - INFO - Destination path: /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:42:07,841 - INFO - Successfully copied /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition to /Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/未存储的“QuickTime Player”文稿3.qtpxcomposition
+2025-01-20 16:42:07,842 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿.qtpxcomposition: []
+2025-01-20 16:42:07,842 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿2.qtpxcomposition: []
+2025-01-20 16:42:07,842 - INFO - Checking directories in /Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/未存储的“QuickTime Player”文稿3.qtpxcomposition: []
