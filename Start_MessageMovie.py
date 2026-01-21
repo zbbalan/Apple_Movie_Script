@@ -30,7 +30,12 @@ def execute_applescript():
 
 def get_last_message():
     # 连接到SQLite数据库
-    with sqlite3.connect('/Users/ZBB/Library/Messages/chat.db') as conn:
+    db_path = os.path.expanduser("~/Library/Messages/chat.db")
+    if not os.path.exists(db_path):
+        logging.warning(f"Database does not exist: {db_path}")
+        return None
+        
+    with sqlite3.connect(db_path) as conn:
         # 创建一个游标对象
         cur = conn.cursor()
 
@@ -73,6 +78,6 @@ if My_Message and My_Message.lower() == "hello":
 elif My_Message and My_Message.lower() == "stop":
     os.system('sh kill_QuickTimePlayer.sh')
     # 源目录和目标目录
-    src_dir = os.path.expanduser(r"/Users/ZBB/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/")
-    dst_dir = "/Users/ZBB/Apple_Script_Movie/Apple_Movie_Script/movie/"
+    src_dir = os.path.expanduser("~/Library/Containers/com.apple.QuickTimePlayerX/Data/Library/Autosave Information/")
+    dst_dir = "./movie/"
     copy_directory(src_dir, dst_dir)
