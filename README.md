@@ -1,86 +1,88 @@
-## 用iphone操作你的mac
+# iMessage录屏控制系统
 
-该技术用到了python3及sqlite数据库与AppleScript
+## 项目概述
 
-示例为关键字触发任务
+这是一个基于iMessage的消息驱动录屏控制系统，通过接收特定关键词消息来控制Mac的屏幕录制功能。
 
-如果要使用请修改Applescript
+## 功能特性
 
-### Start_MessageMovie.py
+### 核心功能
+- **消息驱动录屏**：通过iMessage发送"hello"启动录屏并自动锁屏
+- **远程停止录制**：发送"stop"停止录屏并保存录制文件
+- **实时监控**：持续监听新消息并即时响应
 
-```sh
-   applescript = """
-    tell application "QuickTime Player"
-        activate
-        new movie recording
-        start document 1
-        set miniaturized of window 1 to true
-        delay 1 -- 延迟10秒以确保录制开始
-        tell application "System Events"
-            keystroke "q" using {command down, control down} -- 锁屏
-        end tell
-    end tell
-    """
-```
+### 炫酷UI特性
+- **动态进度条**：带脉冲动画的彩色进度条
+- **哈希值显示**：随机SHA256哈希值在进度条中滚动显示
+- **Verification效果**：进度完成后显示Verification OK效果
+- **脉冲动画**：最终显示带脉冲效果的绿色进度条
 
-更改sqlite关键字My_Message
+## 文件说明
 
-更改路径中ZBB为YourMacName
+### 主要脚本
+- `Start_MessageMovie.py` - 消息处理和录屏控制核心
+- `While_Message.py` - 消息监听循环与炫酷UI显示
+- `kill_QuickTimePlayer.sh` - 停止QuickTime进程的shell脚本
 
-## 重要提示
+### 配置文件
+- `app.log` - 系统运行日志
 
-此项目需要访问macOS的Messages数据库，由于安全和隐私原因，现代macOS系统对此类访问进行了限制。您需要手动授予相应权限。
+## 使用方法
 
-## 设置步骤
-
-### 1. 授予终端完全磁盘访问权限
-
-1. 打开"系统偏好设置" > "安全性与隐私" > "隐私"标签页
-2. 在左侧列表中选择"完全磁盘访问权限"
-3. 点击左下角的锁图标并输入密码解锁
-4. 点击"+"按钮，前往"/Applications/Utilities/Terminal.app"添加终端应用
-5. 或者如果您使用IDE，也需将IDE添加到列表中
-
-### 2. 授予辅助功能权限
-
-1. 打开"系统偏好设置" > "安全性与隐私" > "隐私"标签页
-2. 在左侧列表中选择"辅助功能"
-3. 点击左下角的锁图标并输入密码解锁
-4. 点击"+"按钮，添加您运行Python脚本的应用（如终端、PyCharm等）
-5. 这样才能允许脚本控制QuickTime Player
-
-### 3. 检查iMessage账户设置
-
-确保您的Mac上已登录iMessage账户：
-1. 打开"信息"应用
-2. 前往"偏好设置" > "iMessage"
-3. 确认账户已登录并启用
-
-### 4. 运行项目
-
-完成上述设置后，您可以运行项目：
-
+### 启动监控
 ```bash
-# 启动项目
-./start_env.sh
-
-# 或者直接运行
-source AppleScMv/bin/activate
 python3 While_Message.py
 ```
 
-### 5. 使用说明
+### 控制指令
+- 发送"hello"到iMessage：启动录屏并锁屏
+- 发送"stop"到iMessage：停止录屏并保存文件
 
-- 通过iPhone上的信息应用向Mac发送"hello"将启动屏幕录制并锁屏
-- 发送"stop"将停止录制并将视频文件保存到movie目录
+## 技术架构
 
-### 6. 故障排除
+### 技术栈
+- **编程语言**：Python 3
+- **数据库**：SQLite (读取Messages数据库)
+- **系统控制**：AppleScript (控制QuickTime Player)
+- **UI效果**：ANSI转义码实现彩色控制台输出
 
-如果仍然遇到"authorization denied"错误：
+### 工作流程
+1. While_Message.py循环检查最新消息
+2. 通过ROWID跟踪避免重复处理同一条消息
+3. 检测到"hello"时启动录屏和锁屏
+4. 检测到"stop"时停止录屏并保存文件
+5. 持续显示炫酷的进度条动画
 
-1. 确认已按上述步骤设置权限
-2. 重启Mac以确保权限生效
-3. 检查iMessage是否正在运行且已登录
-4. 如果使用Python虚拟环境，请确保虚拟环境也获得了相应权限
+## 核心变更
 
-注意：如果iMessage从未在Mac上使用过，可能不存在chat.db文件。需要先在Mac上使用信息应用发送/接收一条消息以创建数据库。
+### 2026年1月版本更新
+- **防重复机制**：引入ROWID跟踪，避免相同消息被重复处理（包括hello和stop消息）
+- **性能优化**：仅在有新消息时执行处理脚本
+- **UI增强**：添加彩色哈希值滚动、Verification OK动画、脉冲效果
+- **状态跟踪**：增加录制状态追踪，提高stop命令的鲁棒性
+- **调试输出**：增加消息检测提示，便于监控消息处理情况
+- **稳定性提升**：改进错误处理和进程管理
+
+### 消息处理逻辑
+- 每次循环检查数据库中最新消息的ROWID
+- 只有当ROWID大于上次处理的ROWID时才执行操作
+- 有效防止因循环频率过高导致的重复执行问题
+- 对于"hello"和"stop"消息均采用相同防重复机制
+
+## 系统要求
+
+- macOS操作系统
+- Python 3.x
+- iMessage账户已登录
+- 对"终端"或"Python"应用的完全磁盘访问权限
+- 对"系统事件"的辅助功能权限
+
+## 输出目录
+
+录制的视频文件将保存在 `./movie/` 目录中。
+
+## 注意事项
+
+- 首次运行前请确保已授予必要的系统权限
+- 日志文件 `app.log` 会记录系统运行状态
+- 录制的视频文件以 `.mov` 格式保存
